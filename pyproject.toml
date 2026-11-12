@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "emberemu"
+version = "0.1.0"
+description = "Ember+ for Python: serve a tree as a provider, read and control any Ember+ device as a consumer. The library behind Ember Emu."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Marcus Mathy" }]
+keywords = ["ember+", "emberplus", "s101", "glow", "lawo", "broadcast"]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[tool.setuptools]
+packages = ["emberemu"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

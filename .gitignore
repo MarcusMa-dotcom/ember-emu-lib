@@ -1,0 +1,70 @@
+# What never belongs in this repository: environments, built files,
+# settings, logins, keys and certificates.
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+.eggs/
+build/
+dist/
+wheels/
+pip-wheel-metadata/
+
+# Environments
+.venv/
+venv/
+env/
+ENV/
+build-venv/
+.env
+.env.*
+.envrc
+.python-version
+
+# Tests and tools
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.ruff_cache/
+
+# Settings, logins and keys
+settings.json
+settings.*.json
+*.access.json
+*.pem
+*.key
+*.crt
+*.cer
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+.netrc
+.pypirc
+.npmrc
+secrets.*
+credentials.*
+*.token
+
+# Editors, assistants and operating systems
+.idea/
+.vscode/
+.claude/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Interoperability run: the foreign package and what the run writes
+node_modules/
+interop/mine.json
+interop/theirs.json

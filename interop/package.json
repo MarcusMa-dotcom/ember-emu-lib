@@ -1,0 +1,8 @@
+{
+  "name": "emberemu-interop",
+  "private": true,
+  "description": "Runs emberemu against emberplus-connection, an independent Ember+ implementation.",
+  "dependencies": {
+    "emberplus-connection": "0.3.2-0"
+  }
+}
